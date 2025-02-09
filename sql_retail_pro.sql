@@ -18,11 +18,6 @@ select * from retail_sale;
 select count(*) from retail_sale;
 
 select * from retail_sale
-where transactions_id is null;
-select * from retail_sale
-where sale_date is null;
-
-select * from retail_sale
 where transactions_id is null
 or sale_date is null 
 or sale_time is null
